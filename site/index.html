@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Elias Ruiz · ERVIA</title>
+<meta name="description" content="Fundador de ERVIA · Automatización y Agentes IA para PyMEs. Guarda mi contacto.">
+<meta name="theme-color" content="#0F172A">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Elias Ruiz · ERVIA">
+<meta property="og:description" content="Automatización y Agentes IA para PyMEs · Mérida, Yucatán">
+<meta property="og:url" content="https://contacto.ervia.tech/">
+<meta property="og:image" content="https://contacto.ervia.tech/elias.jpg">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  :root{
+    --navy:#0F172A; --navy-2:#162036; --green:#07F992; --blue:#3165F4;
+    --text:#F1F5F9; --muted:#94A3B8; --line:rgba(148,163,184,.22);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--navy);color:var(--text)}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    min-height:100vh;min-height:100dvh;
+    display:flex;justify-content:center;
+    padding:calc(28px + env(safe-area-inset-top)) 20px calc(28px + env(safe-area-inset-bottom));
+    background:
+      radial-gradient(600px 380px at 50% -80px, rgba(49,101,244,.30), transparent 70%),
+      radial-gradient(420px 300px at 110% 100%, rgba(7,249,146,.10), transparent 70%),
+      var(--navy);
+    -webkit-font-smoothing:antialiased;
+  }
+  main{width:100%;max-width:420px;display:flex;flex-direction:column;align-items:center;text-align:center}
+  .logo{width:150px;height:auto;margin-bottom:28px}
+  .avatar{
+    width:148px;height:148px;border-radius:50%;padding:4px;
+    background:linear-gradient(135deg,var(--green),var(--blue));
+    box-shadow:0 12px 40px rgba(49,101,244,.30);
+  }
+  .avatar img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block;border:4px solid var(--navy)}
+  h1{font-size:30px;font-weight:700;letter-spacing:-.02em;margin-top:20px}
+  .role{margin-top:6px;font-size:16px;font-weight:600;color:var(--green)}
+  .tagline{margin-top:4px;font-size:16px;color:var(--text);line-height:1.4}
+  .place{margin-top:10px;font-size:14px;color:var(--muted);display:flex;gap:6px;align-items:center;justify-content:center}
+  .place svg{width:15px;height:15px}
+
+  .actions{width:100%;margin-top:30px;display:flex;flex-direction:column;gap:12px}
+  .btn{
+    display:flex;align-items:center;justify-content:center;gap:10px;
+    width:100%;min-height:56px;padding:14px 18px;border-radius:14px;
+    font-size:17px;font-weight:650;text-decoration:none;color:var(--text);
+    border:1px solid var(--line);background:var(--navy-2);
+    transition:transform .08s ease, filter .15s ease;
+    -webkit-tap-highlight-color:transparent;cursor:pointer;font-family:inherit;
+  }
+  .btn:active{transform:scale(.98)}
+  .btn svg{width:22px;height:22px;flex:none}
+  .btn-primary{background:var(--green);color:var(--navy);border-color:transparent;font-size:18px;min-height:62px;box-shadow:0 10px 30px rgba(7,249,146,.22)}
+  .btn-wa{background:var(--blue);color:#fff;border-color:transparent}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .row .btn{font-size:16px}
+  .share{margin-top:6px;background:none;border:none;color:var(--muted);font-size:15px;font-weight:500;min-height:44px}
+  .share svg{width:18px;height:18px}
+
+  footer{margin-top:auto;padding-top:34px;font-size:13px;color:var(--muted);line-height:1.5}
+  footer strong{color:var(--text);font-weight:600}
+  .toast{
+    position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom));transform:translateX(-50%) translateY(20px);
+    background:var(--text);color:var(--navy);padding:10px 16px;border-radius:999px;font-size:14px;font-weight:600;
+    opacity:0;transition:all .2s ease;pointer-events:none
+  }
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+  @media (min-width:600px){ body{padding-top:56px} }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="/ervia-logo.png" alt="ERVIA" width="520" height="136">
+
+  <div class="avatar"><img src="/elias.jpg" alt="Foto de Elias Ruiz" width="600" height="600"></div>
+
+  <h1>Elias Ruiz</h1>
+  <p class="role">Fundador de ERVIA</p>
+  <p class="tagline">Automatización y Agentes IA para PyMEs</p>
+  <p class="place">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+    Mérida, Yucatán · México
+  </p>
+
+  <div class="actions">
+    <a class="btn btn-primary" href="/elias.vcf">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg>
+      Guardar contacto
+    </a>
+
+    <a class="btn btn-wa" href="https://wa.me/529841697243?text=Hola%20Elias%2C%20nos%20conocimos%20en%20P%C3%BArpura%20Summit%202026.%20Soy%20" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2zm0 18.15h-.01a8.23 8.23 0 0 1-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.23 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.98-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"/></svg>
+      Escríbeme por WhatsApp
+    </a>
+
+    <div class="row">
+      <a class="btn" href="mailto:elias@ervia.tech?subject=Nos%20conocimos%20en%20P%C3%BArpura%20Summit%202026">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        Email
+      </a>
+      <a class="btn" href="https://www.ervia.tech" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+        Sitio web
+      </a>
+    </div>
+
+    <button class="btn share" type="button" id="share">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>
+      Compartir este contacto
+    </button>
+  </div>
+
+  <footer>Gracias por la conversación en <strong style="white-space:nowrap">Púrpura Summit 2026</strong></footer>
+</main>
+<div class="toast" id="toast">Enlace copiado</div>
+<script>
+  document.getElementById('share').addEventListener('click', async () => {
+    const data = { title: 'Elias Ruiz · ERVIA', text: 'Contacto de Elias Ruiz (ERVIA) · Automatización y Agentes IA para PyMEs', url: 'https://contacto.ervia.tech/' };
+    try {
+      if (navigator.share) { await navigator.share(data); return; }
+      await navigator.clipboard.writeText(data.url);
+      const t = document.getElementById('toast'); t.classList.add('show');
+      setTimeout(() => t.classList.remove('show'), 1800);
+    } catch (e) { /* cancelado por el usuario */ }
+  });
+</script>
+</body>
+</html>
